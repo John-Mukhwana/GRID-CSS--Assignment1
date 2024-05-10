@@ -1,0 +1,46 @@
+.attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+
+.parent{
+    display:grid;
+    background-color: hsl(210, 46%, 95%);
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 20px;
+    padding: 60px;   
+}
+.child1{
+    background-color: hsl(263, 55%, 52%) ;
+    box-shadow: 0px 4px 8px rgb(79, 74, 74);
+    border-radius: 15px;
+    grid-row-end: span 2;
+  
+}
+.child2{
+    background-color:hsl(217, 19%, 35%) ;
+    box-shadow: 0px 4px 8px rgb(79, 74, 74);
+    border-radius: 15px;
+}
+.child3{
+    background-color:hsl(0, 0%, 100%) ;
+    box-shadow: 0px 4px 8px rgb(79, 74, 74);
+    border-radius: 15px;
+
+}
+.child4{
+    background-color:hsl(219, 29%, 14%);
+    box-shadow: 0px 4px 8px rgb(79, 74, 74);
+    border-radius: 15px;
+
+}
+.child5{
+   background-color:  hsl(0, 0%, 100%);
+   box-shadow: 0px 4px 8px rgb(79, 74, 74);
+   border-radius: 15px;
+  
+}
+img{
+    width: 50px;
+    border-radius:50%;
+    overflow: hidden;
+    margin: 10px;   
+}
